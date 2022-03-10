@@ -7,3 +7,7 @@ person = {
 
 p person
 p "#{person.keys[0]} => #{person.values[0]}"
+
+person["shirt"] = "red"
+person["pants"] = "grey"
+p person 
